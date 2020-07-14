@@ -1,0 +1,14 @@
+# CLion
+.idea/
+
+# Build files
+*.[s]o
+build/
+*.py[cod]
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-debug/
+*.cmake
+Makefile
