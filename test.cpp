@@ -11,5 +11,6 @@ int main() {
     // emu->set_video_color(0xFF0000);
     emu->set_video_config_av1(VIDEO_TOP);
     emu->set_video_config_av2(VIDEO_BOTTOM);
+    delete emu;
     return 0;
 }
